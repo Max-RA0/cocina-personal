@@ -1,0 +1,145 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    width: 120px; 
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .nav-extras {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .recetario {
+    padding: 60px 30px;
+    background-color: #f4f4f4;
+  }
+  
+  .recetario h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .receta-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .receta-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .receta-item ul, .receta-item ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .receta-item h2 {
+    color: #ff6347;
+  }
+  .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: rgb(17, 8, 8);
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
